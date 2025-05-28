@@ -1,0 +1,4 @@
+9000600600|InAir1234|1000|0|No
+invalid|line|with|missing|fields
+9000600601|TowerX|abc|1500|Yes
+9000600602|TowerY|500|500|Maybe

@@ -1,0 +1,40 @@
+=== Test Execution Report ===
+
+Test: File with Malformed Lines
+Description: Ensure invalid records are skipped without crashing.
+Result: PASSED
+
+Test: Multiple Mobile Numbers
+Description: Ensure distinct mobile numbers are tracked separately.
+Result: PASSED
+
+Test: Single 5G Roaming Usage
+Description: Check if 5G usage in roaming is recorded properly.
+Result: PASSED
+
+Test: Multiple Records Same Number
+Description: Test cumulative addition for same user across roaming and home usage.
+Result: PASSED
+
+Test: Aggregator Initial State
+Description: Ensure aggregator is empty before any usage is added.
+Result: PASSED
+
+Test: Null Usage Record
+Description: Verify null records are safely ignored without error.
+Result: PASSED
+
+Test: Single 4G Home Usage
+Description: Validate that non-roaming 4G usage is recorded correctly.
+Result: PASSED
+
+Test: Non-existent File Handling
+Description: Confirm system handles missing files gracefully.
+Result: PASSED
+
+Test: File Processing with Valid Data
+Description: Test complete data processing pipeline from file to aggregation.
+Result: PASSED
+
+
+=== End of Report ===
