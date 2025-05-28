@@ -16,7 +16,7 @@ Telecom-aggregator/
 ├── .gitignore
 ├── README.md
 ├── input/                      # Sample input files
-├── output/                     # Processed reports and test outputs
+├── output/                     # Processed reports 
 ├── test_files/                 # Temporary test files and test report
 ├── src/
 │   ├── main/java/
